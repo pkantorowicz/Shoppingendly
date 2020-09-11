@@ -90,8 +90,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{D405D6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{ABA47734-25AC-4704-B3D2-E9B37B7D69BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.IntegrationsTests", "src\tests\IntegrationTests\Shoppingendly.IntegrationsTests\Shoppingendly.IntegrationsTests.csproj", "{70528C00-C55F-4B1E-90B6-1F864C1B23AC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Api.WebApi", "src\api\WebApi\Shoppingendly.Api.WebApi.csproj", "{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Categories.Application", "src\modules\Categories\Application\Shoppingendly.Modules.Categories.Application.csproj", "{C8FE5D80-1295-4704-A4D3-38EC83BD1866}"
@@ -150,6 +148,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserManagement.UnitTests", "src\modules\UserManagement\Tests\Shoppingendly.Modules.UserManagement.UnitTests.csproj", "{196115E1-5092-464B-B597-F894830802D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Tests.IntegrationsTests", "src\tests\IntegrationTests\Shoppingendly.IntegrationsTests\Shoppingendly.Tests.IntegrationsTests.csproj", "{DBFA0346-B867-4566-9736-D5838CEF3C55}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -197,7 +197,6 @@ Global
 		{F5352FCB-9F40-4DFA-AFFC-86E1272AB82C} = {E4D59A0F-B90E-47FE-8AF4-93B21A581309}
 		{D405D6F2-8445-4DA6-B410-991C4DB842C0} = {6419C4E3-9F5E-403C-9D35-8D7F4BAE061D}
 		{ABA47734-25AC-4704-B3D2-E9B37B7D69BE} = {0A7AE82A-8798-4A9F-B671-74CEDF398C71}
-		{70528C00-C55F-4B1E-90B6-1F864C1B23AC} = {ABA47734-25AC-4704-B3D2-E9B37B7D69BE}
 		{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D} = {D405D6F2-8445-4DA6-B410-991C4DB842C0}
 		{C8FE5D80-1295-4704-A4D3-38EC83BD1866} = {8E6CD1B1-C8BF-43FD-83C8-79333DC3A13B}
 		{AAE9BF8D-3070-4494-BA6F-3B994C7463B9} = {47E56D30-11D1-406F-8637-ED9046064103}
@@ -227,12 +226,9 @@ Global
 		{144DA4B7-F502-4733-8F6F-614D735DC154} = {37A3374E-E33C-43E5-98B6-5B9FF6B59F82}
 		{7D2E8D56-1CAA-435A-9550-A0D6E93F9410} = {792729F0-9866-4E01-8253-2ED4A49EC11A}
 		{196115E1-5092-464B-B597-F894830802D4} = {F5352FCB-9F40-4DFA-AFFC-86E1272AB82C}
+		{DBFA0346-B867-4566-9736-D5838CEF3C55} = {ABA47734-25AC-4704-B3D2-E9B37B7D69BE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{70528C00-C55F-4B1E-90B6-1F864C1B23AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{70528C00-C55F-4B1E-90B6-1F864C1B23AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{70528C00-C55F-4B1E-90B6-1F864C1B23AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{70528C00-C55F-4B1E-90B6-1F864C1B23AC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -349,5 +345,9 @@ Global
 		{196115E1-5092-464B-B597-F894830802D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196115E1-5092-464B-B597-F894830802D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196115E1-5092-464B-B597-F894830802D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
