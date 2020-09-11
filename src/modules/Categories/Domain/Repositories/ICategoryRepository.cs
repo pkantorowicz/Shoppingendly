@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Categories.Domain.Repositories
+﻿namespace Shoppingendly.Modules.Categories.Domain.Repositories
 {
     public class ICategoryRepository
     {

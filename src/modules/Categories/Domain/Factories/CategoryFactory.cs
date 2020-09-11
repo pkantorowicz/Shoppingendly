@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Categories.Domain.Factories
+﻿namespace Shoppingendly.Modules.Categories.Domain.Factories
 {
     public class CategoryFactory
     {

@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Categories.Domain.ValueObjects
+﻿namespace Shoppingendly.Modules.Categories.Domain.ValueObjects
 {
     public class CategoryId
     {

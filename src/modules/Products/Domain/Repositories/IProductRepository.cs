@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Products.Domain.Repositories
+﻿namespace Shoppingendly.Modules.Products.Domain.Repositories
 {
     public interface IProductRepository
     {

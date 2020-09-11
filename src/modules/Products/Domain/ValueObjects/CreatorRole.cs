@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Products.Domain.ValueObjects
+﻿namespace Shoppingendly.Modules.Products.Domain.ValueObjects
 {
     public class CreatorRole
     {
