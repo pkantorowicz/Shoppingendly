@@ -1,4 +1,4 @@
-name: shoppingendly
+name: aspnetcore
 
 on: [push]
 

@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Modules.Categories.Domain.Factories
+﻿namespace Conteque.Shoppingendly.Modules.Categories.Domain.Factories
 {
     public class CategoryFactory
     {

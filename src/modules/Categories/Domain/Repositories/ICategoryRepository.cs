@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Modules.Categories.Domain.Repositories
+﻿namespace Conteque.Shoppingendly.Modules.Categories.Domain.Repositories
 {
     public class ICategoryRepository
     {
