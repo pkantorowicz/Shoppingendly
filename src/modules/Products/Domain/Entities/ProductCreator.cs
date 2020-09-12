@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Modules.Products.Domain.Entities
+﻿namespace Conteque.Shoppingendly.Modules.Products.Domain.Entities
 {
     public class ProductCreator
     {

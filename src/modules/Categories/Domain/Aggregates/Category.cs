@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Modules.Categories.Domain.Aggregates
+﻿namespace Conteque.Shoppingendly.Modules.Categories.Domain.Aggregates
 {
     public class Category
     {
