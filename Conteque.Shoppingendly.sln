@@ -148,12 +148,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserManagement.UnitTests", "src\modules\UserManagement\Tests\Conteque.Shoppingendly.Modules.UserManagement.UnitTests.csproj", "{196115E1-5092-464B-B597-F894830802D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Tests.IntegrationsTests", "src\tests\IntegrationTests\Shoppingendly.IntegrationsTests\Conteque.Shoppingendly.Tests.IntegrationsTests.csproj", "{DBFA0346-B867-4566-9736-D5838CEF3C55}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "actions", "actions", "{2EC76EF6-F0FB-474F-9F39-D5ED433D6DE4}"
 ProjectSection(SolutionItems) = preProject
 	.github\workflows\aspnetcore.yaml = .github\workflows\aspnetcore.yaml
 EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Tests.IntegrationsTests", "src\tests\IntegrationTests\Conteque.Shoppingendly.Tests.IntegrationsTests.csproj", "{4CFC3631-95BD-4884-AA52-583A00B965F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,7 +231,7 @@ Global
 		{144DA4B7-F502-4733-8F6F-614D735DC154} = {37A3374E-E33C-43E5-98B6-5B9FF6B59F82}
 		{7D2E8D56-1CAA-435A-9550-A0D6E93F9410} = {792729F0-9866-4E01-8253-2ED4A49EC11A}
 		{196115E1-5092-464B-B597-F894830802D4} = {F5352FCB-9F40-4DFA-AFFC-86E1272AB82C}
-		{DBFA0346-B867-4566-9736-D5838CEF3C55} = {ABA47734-25AC-4704-B3D2-E9B37B7D69BE}
+		{4CFC3631-95BD-4884-AA52-583A00B965F8} = {ABA47734-25AC-4704-B3D2-E9B37B7D69BE}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -350,9 +350,9 @@ Global
 		{196115E1-5092-464B-B597-F894830802D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{196115E1-5092-464B-B597-F894830802D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{196115E1-5092-464B-B597-F894830802D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBFA0346-B867-4566-9736-D5838CEF3C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFC3631-95BD-4884-AA52-583A00B965F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFC3631-95BD-4884-AA52-583A00B965F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFC3631-95BD-4884-AA52-583A00B965F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFC3631-95BD-4884-AA52-583A00B965F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
