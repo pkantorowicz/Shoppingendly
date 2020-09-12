@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Modules.Products.Domain.ValueObjects
+﻿namespace Conteque.Shoppingendly.Modules.Products.Domain.ValueObjects
 {
     public class ProductProducer
     {

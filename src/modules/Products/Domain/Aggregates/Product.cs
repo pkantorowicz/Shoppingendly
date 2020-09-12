@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Modules.Products.Domain.Aggregates
+﻿namespace Conteque.Shoppingendly.Modules.Products.Domain.Aggregates
 {
     public class Product
     {

@@ -1,4 +1,4 @@
-﻿namespace Shoppingendly.Modules.Categories.Domain.ValueObjects
+﻿namespace Conteque.Shoppingendly.Modules.Categories.Domain.ValueObjects
 {
     public class ParentCategoryId
     {

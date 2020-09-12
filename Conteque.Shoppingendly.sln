@@ -90,65 +90,70 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{D405D6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTests", "IntegrationTests", "{ABA47734-25AC-4704-B3D2-E9B37B7D69BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Api.WebApi", "src\api\WebApi\Shoppingendly.Api.WebApi.csproj", "{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Api.WebApi", "src\api\WebApi\Conteque.Shoppingendly.Api.WebApi.csproj", "{DA9D462C-8A01-4131-A02A-8C4BAB4EE43D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Categories.Application", "src\modules\Categories\Application\Shoppingendly.Modules.Categories.Application.csproj", "{C8FE5D80-1295-4704-A4D3-38EC83BD1866}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Categories.Application", "src\modules\Categories\Application\Conteque.Shoppingendly.Modules.Categories.Application.csproj", "{C8FE5D80-1295-4704-A4D3-38EC83BD1866}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Categories.Domain", "src\modules\Categories\Domain\Shoppingendly.Modules.Categories.Domain.csproj", "{AAE9BF8D-3070-4494-BA6F-3B994C7463B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Categories.Domain", "src\modules\Categories\Domain\Conteque.Shoppingendly.Modules.Categories.Domain.csproj", "{AAE9BF8D-3070-4494-BA6F-3B994C7463B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Categories.Infrastructure", "src\modules\Categories\Infrastructure\Shoppingendly.Modules.Categories.Infrastructure.csproj", "{13075080-FFB1-4DC2-B1D4-7616885B0E46}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Categories.Infrastructure", "src\modules\Categories\Infrastructure\Conteque.Shoppingendly.Modules.Categories.Infrastructure.csproj", "{13075080-FFB1-4DC2-B1D4-7616885B0E46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Categories.UnitTests", "src\modules\Categories\Tests\Shoppingendly.Modules.Categories.UnitTests.csproj", "{D6EFCA14-5335-48D2-BC55-D1F1E089AA4F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Categories.UnitTests", "src\modules\Categories\Tests\Conteque.Shoppingendly.Modules.Categories.UnitTests.csproj", "{D6EFCA14-5335-48D2-BC55-D1F1E089AA4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Operations.Application", "src\modules\Operations\Application\Shoppingendly.Modules.Operations.Application.csproj", "{95BB7B0C-8314-4DAC-842E-7AC90DC91170}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Operations.Application", "src\modules\Operations\Application\Conteque.Shoppingendly.Modules.Operations.Application.csproj", "{95BB7B0C-8314-4DAC-842E-7AC90DC91170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Operations.Domain", "src\modules\Operations\Domain\Shoppingendly.Modules.Operations.Domain.csproj", "{FB7B3BC5-DBDA-4DA4-BFF1-818CF8036F70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Operations.Domain", "src\modules\Operations\Domain\Conteque.Shoppingendly.Modules.Operations.Domain.csproj", "{FB7B3BC5-DBDA-4DA4-BFF1-818CF8036F70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Operations.Infrastructure", "src\modules\Operations\Infrastructure\Shoppingendly.Modules.Operations.Infrastructure.csproj", "{B5FC6D3F-7F51-45A2-80B6-EF9ABC8CEC51}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Operations.Infrastructure", "src\modules\Operations\Infrastructure\Conteque.Shoppingendly.Modules.Operations.Infrastructure.csproj", "{B5FC6D3F-7F51-45A2-80B6-EF9ABC8CEC51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Operations.UnitTests", "src\modules\Operations\Tests\Shoppingendly.Modules.Operations.UnitTests.csproj", "{3DBE075E-89E2-4268-9383-6EF2BF5C6E9D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Operations.UnitTests", "src\modules\Operations\Tests\Conteque.Shoppingendly.Modules.Operations.UnitTests.csproj", "{3DBE075E-89E2-4268-9383-6EF2BF5C6E9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Products.Application", "src\modules\Products\Application\Shoppingendly.Modules.Products.Application.csproj", "{01358151-8E8A-4EF1-A466-F780E8E3E155}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Products.Application", "src\modules\Products\Application\Conteque.Shoppingendly.Modules.Products.Application.csproj", "{01358151-8E8A-4EF1-A466-F780E8E3E155}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Products.Domain", "src\modules\Products\Domain\Shoppingendly.Modules.Products.Domain.csproj", "{46DE5896-EDA7-4F41-A05C-8AC4F38904E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Products.Domain", "src\modules\Products\Domain\Conteque.Shoppingendly.Modules.Products.Domain.csproj", "{46DE5896-EDA7-4F41-A05C-8AC4F38904E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Products.Infrastructure", "src\modules\Products\Infrastructure\Shoppingendly.Modules.Products.Infrastructure.csproj", "{18822001-663B-4ACE-B5E2-5ACA952ECBAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Products.Infrastructure", "src\modules\Products\Infrastructure\Conteque.Shoppingendly.Modules.Products.Infrastructure.csproj", "{18822001-663B-4ACE-B5E2-5ACA952ECBAE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.Products.UnitTests", "src\modules\Products\Tests\Shoppingendly.Modules.Products.UnitTests.csproj", "{9A93316F-1EAC-4676-8A75-67B1C558A0FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.Products.UnitTests", "src\modules\Products\Tests\Conteque.Shoppingendly.Modules.Products.UnitTests.csproj", "{9A93316F-1EAC-4676-8A75-67B1C558A0FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.ShoppingList.Application", "src\modules\ShoppingList\Application\Shoppingendly.Modules.ShoppingList.Application.csproj", "{86512BD0-02DE-4924-8E7D-FEFB44669B6D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.ShoppingList.Application", "src\modules\ShoppingList\Application\Conteque.Shoppingendly.Modules.ShoppingList.Application.csproj", "{86512BD0-02DE-4924-8E7D-FEFB44669B6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.ShoppingList.Domain", "src\modules\ShoppingList\Domain\Shoppingendly.Modules.ShoppingList.Domain.csproj", "{8BFAD096-CD5D-40B8-83A4-21442DEAD3A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.ShoppingList.Domain", "src\modules\ShoppingList\Domain\Conteque.Shoppingendly.Modules.ShoppingList.Domain.csproj", "{8BFAD096-CD5D-40B8-83A4-21442DEAD3A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.ShoppingList.Infrastructure", "src\modules\ShoppingList\Infrastructure\Shoppingendly.Modules.ShoppingList.Infrastructure.csproj", "{D961646B-65DC-4198-A314-80E7C492FF81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.ShoppingList.Infrastructure", "src\modules\ShoppingList\Infrastructure\Conteque.Shoppingendly.Modules.ShoppingList.Infrastructure.csproj", "{D961646B-65DC-4198-A314-80E7C492FF81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.ShoppingList.UnitTests", "src\modules\ShoppingList\Tests\Shoppingendly.Modules.ShoppingList.UnitTests.csproj", "{32DC58C2-D417-4B39-8DCB-CEFA1A8EE030}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.ShoppingList.UnitTests", "src\modules\ShoppingList\Tests\Conteque.Shoppingendly.Modules.ShoppingList.UnitTests.csproj", "{32DC58C2-D417-4B39-8DCB-CEFA1A8EE030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserAccess.Application", "src\modules\UserAccess\Application\Shoppingendly.Modules.UserAccess.Application.csproj", "{3D11A8D2-DC47-4010-B58E-2FE4EE136BEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserAccess.Application", "src\modules\UserAccess\Application\Conteque.Shoppingendly.Modules.UserAccess.Application.csproj", "{3D11A8D2-DC47-4010-B58E-2FE4EE136BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserAccess.Domain", "src\modules\UserAccess\Domain\Shoppingendly.Modules.UserAccess.Domain.csproj", "{DB0F57AE-24A2-4947-861C-1789EB78FA63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserAccess.Domain", "src\modules\UserAccess\Domain\Conteque.Shoppingendly.Modules.UserAccess.Domain.csproj", "{DB0F57AE-24A2-4947-861C-1789EB78FA63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserAccess.Infrastructure", "src\modules\UserAccess\Infrastructure\Shoppingendly.Modules.UserAccess.Infrastructure.csproj", "{5611BA48-8366-4FF3-A88D-0ACC92DF1AA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserAccess.Infrastructure", "src\modules\UserAccess\Infrastructure\Conteque.Shoppingendly.Modules.UserAccess.Infrastructure.csproj", "{5611BA48-8366-4FF3-A88D-0ACC92DF1AA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserAccess.UnitTests", "src\modules\UserAccess\Tests\Shoppingendly.Modules.UserAccess.UnitTests.csproj", "{E1B5ED7A-398B-416C-AC4A-111F937C9CA4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserAccess.UnitTests", "src\modules\UserAccess\Tests\Conteque.Shoppingendly.Modules.UserAccess.UnitTests.csproj", "{E1B5ED7A-398B-416C-AC4A-111F937C9CA4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserGroups.Application", "src\modules\UserGroups\Application\Shoppingendly.Modules.UserGroups.Application.csproj", "{D44FCF23-EF0C-457D-9BA7-8B78B99684F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserGroups.Application", "src\modules\UserGroups\Application\Conteque.Shoppingendly.Modules.UserGroups.Application.csproj", "{D44FCF23-EF0C-457D-9BA7-8B78B99684F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserGroups.Domain", "src\modules\UserGroups\Domain\Shoppingendly.Modules.UserGroups.Domain.csproj", "{7EE8A629-2560-4379-A1F2-419DAF886D61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserGroups.Domain", "src\modules\UserGroups\Domain\Conteque.Shoppingendly.Modules.UserGroups.Domain.csproj", "{7EE8A629-2560-4379-A1F2-419DAF886D61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserGroups.Infrastructure", "src\modules\UserGroups\Infrastructure\Shoppingendly.Modules.UserGroups.Infrastructure.csproj", "{145EE3C0-16D9-4BA7-A8C4-CE8293A60487}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserGroups.Infrastructure", "src\modules\UserGroups\Infrastructure\Conteque.Shoppingendly.Modules.UserGroups.Infrastructure.csproj", "{145EE3C0-16D9-4BA7-A8C4-CE8293A60487}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserGroups.UnitTests", "src\modules\UserGroups\Tests\Shoppingendly.Modules.UserGroups.UnitTests.csproj", "{F8A01E2A-16C2-423F-A7C1-392DC3A7B9BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserGroups.UnitTests", "src\modules\UserGroups\Tests\Conteque.Shoppingendly.Modules.UserGroups.UnitTests.csproj", "{F8A01E2A-16C2-423F-A7C1-392DC3A7B9BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserManagement.Application", "src\modules\UserManagement\Application\Shoppingendly.Modules.UserManagement.Application.csproj", "{1A5A2FEA-6183-4977-8E8A-9071A7C6F90F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserManagement.Application", "src\modules\UserManagement\Application\Conteque.Shoppingendly.Modules.UserManagement.Application.csproj", "{1A5A2FEA-6183-4977-8E8A-9071A7C6F90F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserManagement.Domain", "src\modules\UserManagement\Domain\Shoppingendly.Modules.UserManagement.Domain.csproj", "{144DA4B7-F502-4733-8F6F-614D735DC154}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserManagement.Domain", "src\modules\UserManagement\Domain\Conteque.Shoppingendly.Modules.UserManagement.Domain.csproj", "{144DA4B7-F502-4733-8F6F-614D735DC154}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserManagement.Infrastructure", "src\modules\UserManagement\Infrastructure\Shoppingendly.Modules.UserManagement.Infrastructure.csproj", "{7D2E8D56-1CAA-435A-9550-A0D6E93F9410}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserManagement.Infrastructure", "src\modules\UserManagement\Infrastructure\Conteque.Shoppingendly.Modules.UserManagement.Infrastructure.csproj", "{7D2E8D56-1CAA-435A-9550-A0D6E93F9410}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Modules.UserManagement.UnitTests", "src\modules\UserManagement\Tests\Shoppingendly.Modules.UserManagement.UnitTests.csproj", "{196115E1-5092-464B-B597-F894830802D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Modules.UserManagement.UnitTests", "src\modules\UserManagement\Tests\Conteque.Shoppingendly.Modules.UserManagement.UnitTests.csproj", "{196115E1-5092-464B-B597-F894830802D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shoppingendly.Tests.IntegrationsTests", "src\tests\IntegrationTests\Shoppingendly.IntegrationsTests\Shoppingendly.Tests.IntegrationsTests.csproj", "{DBFA0346-B867-4566-9736-D5838CEF3C55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conteque.Shoppingendly.Tests.IntegrationsTests", "src\tests\IntegrationTests\Shoppingendly.IntegrationsTests\Conteque.Shoppingendly.Tests.IntegrationsTests.csproj", "{DBFA0346-B867-4566-9736-D5838CEF3C55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "actions", "actions", "{2EC76EF6-F0FB-474F-9F39-D5ED433D6DE4}"
+ProjectSection(SolutionItems) = preProject
+	.github\workflows\aspnetcore.yaml = .github\workflows\aspnetcore.yaml
+EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
