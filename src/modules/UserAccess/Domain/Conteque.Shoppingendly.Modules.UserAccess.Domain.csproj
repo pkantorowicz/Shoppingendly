@@ -4,18 +4,7 @@
         <TargetFramework>netcoreapp3.1</TargetFramework>
     </PropertyGroup>
 
-    <ItemGroup Condition="'$(Configuration)' == 'Debug'">
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.DataAccess\Core\src\Conteque.Liberey.DataAccess.csproj" />
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.Domain\Adapters\src\Conteque.Liberey.Domain.Adapters.csproj" />
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.Domain\BusinessRules\src\Conteque.Liberey.Domain.BusinessRules.csproj" />
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.Domain\Core\src\Conteque.Liberey.Domain.Core.csproj" />
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.Domain\EventSourcing\src\Conteque.Liberey.Domain.EventSourcing.csproj" />
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.Domain\Exceptions\src\Conteque.Liberey.Domain.Exceptions.csproj" />
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.Domain\MediatR\src\Conteque.Liberey.Domain.MediatR.csproj" />
-        <ProjectReference Include="..\..\..\..\..\Liberey\Liberey.Domain\Repositories\src\Conteque.Liberey.Domain.Repositories.csproj" />
-    </ItemGroup>
-
-    <ItemGroup Condition="'$(Configuration)' == 'Release'">
+    <ItemGroup>
       <PackageReference Include="Conteque.Liberey.DataAccess.Core" Version="0.1.0" />
       <PackageReference Include="Conteque.Liberey.Domain.Adapters" Version="0.1.0" />
       <PackageReference Include="Conteque.Liberey.Domain.Core" Version="0.1.0" />

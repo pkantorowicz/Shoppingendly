@@ -1,25 +1,43 @@
 name: aspnetcore
 
-on: [push]
+on: [ push ]
 
 jobs:
   build:
     runs-on: windows-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Setup .NET Core
-      uses: actions/setup-dotnet@v1
-      with:
-        dotnet-version: 3.1.101
-    - name: Build with dotnet
-      run: dotnet build --configuration Release
+      - uses: actions/checkout@v2
+      - name: Setup .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: 3.1.200
+      - name: Add Github package source
+        env:
+          CONFIGURATION: release
+          SOURCE: https://nuget.pkg.github.com/pkantorowicz/index.json
+          SOURCE_NAME: github
+          USERNAME: ${{ github.actor }}
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          dotnet nuget add source $env:SOURCE -n $env:SOURCE_NAME -u $env:USERNAME -p $env:TOKEN
+      - name: Build with dotnet
+        run: dotnet build --configuration Release
   tests:
     runs-on: windows-latest
     steps:
       - name: Setup .NET Core if needed
         uses: actions/setup-dotnet@v1
         with:
-          dotnet-version: 3.1.101
+          dotnet-version: 3.1.200
+      - name: Add Github package source
+        env:
+          CONFIGURATION: release
+          SOURCE: https://nuget.pkg.github.com/pkantorowicz/index.json
+          SOURCE_NAME: github
+          USERNAME: ${{ github.actor }}
+          TOKEN: ${{ secrets.TOKEN }}
+        run: |
+          dotnet nuget add source $env:SOURCE -n $env:SOURCE_NAME -u $env:USERNAME -p $env:TOKEN
       - uses: actions/checkout@v2
       - name: tests
-        run: dotnet test --configuration Release
+        run: dotnet test 
